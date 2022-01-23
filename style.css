@@ -12,8 +12,10 @@
     font-family: 'Lobster', cursive;
     font-size: 50px;
 }
-span{
+.nav-bar span{
     font-family: 'Lobster', cursive;
+}
+span{
     color: orange;
 }
 ul{
@@ -87,6 +89,38 @@ ul li a:hover::after{
     background: rgb(240, 101, 51);
     margin: 30% 15%;
 }
-.left-column, .middle-column, right-column{
-    flex-basis: 50%;
+.services{
+    display: flex;
+    background-color: #E1EBE6;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.services img{
+    width: 30%;
+    
+}
+.services div{
+    border: 2px solid brown;
+    padding: 2%;
+    width: 30%;
+}
+.row{
+    display: flex;
+    margin-bottom: 5%;
+    padding: 1%;
+    justify-content: space-between;
+}
+.row div{
+    box-shadow: 2px 5px 2px grey;
+    padding: 2%;
+}
+.circles{
+    display: flex;
+    justify-content: center;
+
+}
+.circles p{
+    background-color: gray;
+    padding: 1%;
+    border-radius: 50%;
 }
