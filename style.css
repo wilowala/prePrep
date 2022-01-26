@@ -3,8 +3,11 @@
     padding: 0;
     font-family: 'Poppins';
 }
+main{
+    display: block;
+}
 .sec1{
-    background-image: linear-gradient(100deg,white 65%, #F6B400 65%);;
+    background-image: linear-gradient(113deg,white 65%, #F6B400 65%);;
 }
 .navbar{
     margin: 5px auto;
@@ -72,18 +75,185 @@
     float: right;
 }
 .sec2{
-    background-color: #E1EBE6;
+    background: #E1EBE6;
     display: flex;
-    justify-content: space-between;
-    border-color: rgb(42, 29, 54);
-    border-radius: 5px;
-    margin: auto;
-    padding: 10px;
+    flex-direction: row;
+    margin: 3px;
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
-.sec2{
+.sec2 img{
     width: 30%;
+    text-align: center;
 }
 .sec2 h2{
     color: rgb(77, 35, 35);
     text-align: center;
+    font-weight: 400;
+}
+.sec2 p{
+    color: #383f3c;
+    font-size: medium;
+    text-align: center;
+}
+.box{
+    text-align: center;
+}
+.burgers, .meals{
+    position: relative;
+    height: 40%;
+    width: 50%;
+    box-shadow: #383f3c
+}
+.burgers{
+    box-shadow: 0px 1px 2px 1px #383f3c;
+    border: 1px solid rgb(102, 41, 41);
+    border-radius: 8px;
+}
+.meals{
+    box-shadow: 0px 1px 2px 1px #383f3c;
+    border: 1px solid rgb(102, 41, 41);
+    border-radius: 8px;
+}
+.fast{
+    position: relative;
+    height: 60%;
+    width: 50%;
+    box-shadow: 0px 1px 2px 1px #383f3c;
+    border: 1px solid rgb(102, 41, 41);
+    border-radius: 8px;
+}
+.sec3{
+    max-height: 110vh;
+}
+.sec3 .menu h2{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: xx-large;
+}
+.sec3 .menu h2 span{
+    color: orange;
+}
+.sec3 h1{
+    text-align: center;
+}
+.contain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border: 1px solid transparent;
+}
+.contain .double{
+    border: 1px solid #c0d3cb;
+    border-radius: 45px;
+    width: 425px;
+    box-shadow: 2px 3px 4px 3px #c0d3cb;
+    justify-items: center;
+    height: 510px;
+    margin: 10px 0px 20px 0px;
+}
+.contain .double .image img{
+    width: 50%;
+    align-items: center;
+}
+.contain .double .priceshop .shop img{
+    width: 12%;
+    float: right;
+    margin-right: 20px;
+}
+.priceshop{
+    display: flex;
+    text-align: center;
+    font-size: medium;
+    margin-left: 20px;
+}
+.sec4{
+    background: #E1EBE6;
+    margin-top: 450px;
+    height: 600px;
+}
+.sec4 .decker{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+.decker{
+    text-align: inherit;
+}
+.decker span{
+    color: orange;
+}
+.deli{
+    width: 50%;
+}
+.mouth img{
+    width: 50%;
+}
+.deli img{
+    width: 101%;
+}
+.mouth{
+    position: relative;
+    width: 85%;
+    left: 50%;
+}
+.sec5{
+    display: flex;
+    background: orange;
+}
+.soft{
+    display: flex;
+    justify-content: space-around;
+}
+.google img{
+    width: 50%;
+    background-color: orange;
+}
+.apple img{
+    width: 50%;
+    background-color: orange;
+}
+.sec6{
+    display: flex;
+    background: #E1EBE6;
+}
+.ll{
+    flex-basis: 50%;
+    height: 40px;
+    margin-left: 2px;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.ll span{
+    color: orange;
+    font-family: 'Lobster';
+}
+.ll h1{
+    font-family: 'Lobster';
+}
+.site{
+flex-basis: 50%;
+}
+.site ul li{
+    list-style: none;
+}
+.map{
+    flex-basis: 40%;
+    align-items: baseline;
+}
+input{
+    shape-rendering: 30%;
+}
+.sub p{
+    background: orange;
+    color: white;
+}
+footer{
+    padding: 20px;
 }
