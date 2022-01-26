@@ -71,3 +71,19 @@
     width: 60%;
     float: right;
 }
+.sec2{
+    background-color: #E1EBE6;
+    display: flex;
+    justify-content: space-between;
+    border-color: rgb(42, 29, 54);
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+}
+.sec2{
+    width: 30%;
+}
+.sec2 h2{
+    color: rgb(77, 35, 35);
+    text-align: center;
+}
